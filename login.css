@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 400px;
+  margin: auto;
+  background: #51087421;
+  height: 500px;
+  box-sizing: border-box;
+  box-shadow: inset 20px;
+}
+h1 {
+  text-align: center;
+}
+
+.forgot {
+  float: right;
+}
+.parag {
+  display: inline;
+  text-align: center;
+  margin-left: 25%;
+}
+a {
+  text-decoration: none;
+  font-weight: 1000;
+}
+input[type="password"],
+input[type="text"] {
+  width: 98%;
+  padding: 13px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 80%;
+  margin: 40px;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: tomato;
+  box-sizing: border-box;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+h1 {
+  margin-top: 40px;
+}
