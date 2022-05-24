@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login and sign up form</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="Signup"><h1>Sign Up</h1></div>
+      <form>
+        <label for="email">Email:</label> <br />
+        <div class="inputbox">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        <br />
+        <label for="password">Password:</label> <br />
+        <div>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Choose your password"
+          />
+        </div>
+        <div class="forgotpassword">
+          <label for="cpassword">Confirm Password:</label>
+          <br />
+          <input
+            type="password"
+            id="cpassword"
+            name="cpassword"
+            placeholder="Confirm your password"
+          />
+        </div>
+        <br />
+
+        <div class="button"><input type="submit" value="Signup" /></div>
+      </form>
+      <p class="parag">Already registered? <a href="login.html">Login</a></p>
+    </div>
+  </body>
+</html>

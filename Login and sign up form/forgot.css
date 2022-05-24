@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.forgotpassword {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  background: #51087421;
+}
+p,
+h1 {
+  text-align: center;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin: 0 50px;
+  border: none;
+}
+input[type="submit"] {
+  width: 40%;
+  margin: 15px 120px;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: tomato;
+  box-sizing: border-box;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  margin-left: 35%;
+}
